@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-input {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 my-2 text-gray-700 leading-tight focus:outline-none;
+}
+.form-button {
+  @apply bg-blue-300 hover:bg-blue-400 text-blue-900  shadow font-bold py-2 px-4 rounded;
+}
