@@ -1,6 +1,5 @@
-import axios from 'axios';
 import React, { useState } from 'react'
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { api } from '../../Services/api';
 import { setItemToLocalStorage } from '../../Services/localStorage';
 
@@ -36,6 +35,7 @@ export const LoginPage = () =>{
         <button className='form-button' onClick={handleSubmit}>Login</button>
         </div>
         <p className='text-center mt-5'>If you don't have account <Link to="/register" className='underline text-lg mx-1 text-green-600 hover:text-green-700'> Register Here</Link></p>
+        <div>{error}</div>
     </div>
     </div>
 

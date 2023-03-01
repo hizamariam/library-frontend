@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { LoginPage } from './Pages/Auth/LoginPage';   
 
 import { Route, Routes } from 'react-router-dom';
@@ -7,10 +7,10 @@ import RegisterPage from './Pages/Auth/RegisterPage';
 import BookList from './Pages/ManageBooks/BookList';
 
 function App() {
-  const [books, setBooks] = useState([]);
-  const [users, setUsers] = useState([]);
-  const [selectedBook, setSelectedBook] = useState(null);
-  const [selectedUser, setSelectedUser] = useState(null);
+  // const [books, setBooks] = useState([]);
+  // const [users, setUsers] = useState([]);
+  // const [selectedBook, setSelectedBook] = useState(null);
+  // const [selectedUser, setSelectedUser] = useState(null);
 
   // useEffect(() => {
   //   // Fetch books and users from database
